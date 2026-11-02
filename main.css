@@ -1,0 +1,231 @@
+ html
+
+{background-color:#06a;}
+
+@font-face 
+{
+    font-family: calibri;
+    src: url(fonts/calibri.woff);
+}
+
+a {color:#fff;text-decoration:none;}
+
+a:hover {color:#06a; text-decoration:none;}
+
+body 
+{	
+        width:54vw;
+        margin-left:auto;
+        margin-right:auto;   	
+}
+
+.headboxtop1 
+{   
+        width:54vw;
+        height:11vw;
+        margin:0vw 0vw 2vw 0vw;       
+}
+
+.headboxdoc 
+{
+    	width:54vw;
+    	height:auto;
+        padding:0vw 0vw 3vw 0vw;         
+}
+
+
+
+.doc 
+{       
+        margin:0vw 0.9vw 0vw 0.9vw;
+        padding:0.5vw 0vw 0.5vw 0vw;
+        width:9vw;
+        height:auto;
+        float:left;
+        font-family:calibri,arial,sans-serif;
+        color:rgba(204, 238, 255, 0.9);
+        text-shadow: 0.1vw 0.1vw 0.1vw rgba(9, 9, 9, 0.5);
+        font-size:1.4vw;
+        font-weight:200;
+        text-align:center;               
+}
+
+.doc:hover { color:#06a;}
+
+
+.doc2 
+{
+        margin:0.5vw 0vw 1vw 0vw;
+        width:24vw;
+        height:auto;
+        float:left;
+        margin-left:15vw; margin-right:15vw;
+        font-family:calibri,arial,sans-serif;
+        color:rgba(204, 238, 255, 0.9);
+        text-shadow: 0.1vw 0.1vw 0.2vw rgba(9, 9, 9, 0.5);
+        font-size:1.5vw;
+        font-weight:200;
+        text-align:center; 
+        border-radius:0.5vw; 
+}
+
+.doc2:hover { color:#06a;}
+
+.doc3 
+{
+        margin:0.5vw 0vw 1vw 0vw;
+        width:24vw;
+        height:auto;
+        float:left;
+        margin-left:15vw; margin-right:15vw;
+        font-family:calibri,arial,sans-serif; #font-style:italic;
+        color:rgba(204, 238, 255, 0.9);
+        text-shadow: 0.1vw 0.1vw 0.1vw rgba(9, 9, 9, 0.5);     
+        font-size:1.5vw;
+        font-weight:200;
+        text-align:center; 
+        border-radius:0.5vw; 
+}
+
+.doc4 
+{
+        margin:0.5vw 0vw 1.5vw 0vw;
+        width:13vw;
+        height:auto;
+        float:left;
+        font-family:calibri,arial,sans-serif;
+        color:rgba(204, 238, 255, 0.9);
+        text-shadow: 0.1vw 0.1vw 0.1vw rgba(9, 9, 9, 0.5);
+        font-size:1.4vw;
+        font-weight:400;
+        text-align:center;         
+}
+
+.doc4:hover { color:#06a;}
+
+
+
+
+.bodybox 
+{
+        width:52vw;
+        float:left;
+        height:auto;
+        padding:0.5vw 1vw 1vw 1vw;
+        border-radius:0.5vw;       
+}
+
+hr 
+{
+ 	height: 0.1vw;
+        width:42vw;
+        background-image:linear-gradient(to right,rgba(204,238,255,0),rgba(204,238,255,0.7),rgba(204,238,255,0));
+        border: none;
+}
+
+.footer 
+{   
+        margin:0vw 0vw 2vw 0vw;
+        float:left;
+        width:54vw;
+        height:auto;               
+}
+
+.footer:hover {color:#06a;}
+
+.footer2 
+{
+        width:24vw;
+        float:left;
+        height:auto;
+        margin-left:15vw;
+        margin-top: 1vw;
+        margin-bottom:1vw;
+        font-family:calibri,arial,sans-serif; font-style:italic;
+        text-shadow: 0.1vw 0.1vw 0.2vw rgba(9, 9, 9, 0.5);
+        color:rgba(204, 238, 255, 0.9);
+        font-size:1.3vw;
+        font-weight:200;
+        text-align:center; 
+        border-radius:1vw;          
+}
+
+.footer2:hover{color:#05a;}
+
+
+p 
+{
+        font-family: calibri, arial, sans-serif;
+        font-size:calc(0.65rem + 0.5vw);
+	color:rgba(204, 238, 255, 0.9);
+        text-shadow: 0.1vw 0.1vw 0.1vw rgba(9, 9, 9, 0.5);
+        margin:0.5vw 0vw 0.5vw 0vw;
+        padding:0vw 0.5vw 0vw 0.5vw;
+        text-align:justify;   
+}
+
+p.cen 
+{
+        font-family: calibri, arial, sans-serif;
+        font-style: italic;
+        font-size:calc(0.65rem + 0.5vw);
+	color:rgba(204, 238, 255, 0.9);
+        text-shadow: 0.1vw 0.1vw 0.1vw rgba(9, 9, 9, 0.5);
+        margin:1vw 0vw 0.5vw 0vw;
+        text-align:center;   
+}
+
+p.cen2 
+{
+        font-family: calibri, arial, sans-serif;
+        #font-style: italic;
+        font-size:calc(0.65rem + 0.5vw);
+	color:rgba(204, 238, 255, 1);
+        text-shadow: 0.1vw 0.1vw 0.1vw rgba(9, 9, 9, 0.5);
+        margin:1vw 0vw 0.5vw 0vw;
+        text-align:center;   
+}
+
+
+p.cen4 
+{
+        font-family: calibri, arial, sans-serif;
+        font-size:calc(0.65rem + 0.5vw);
+	color:rgba(204, 238, 255, 0.9);
+        text-shadow: 0.1vw 0.1vw 0.1vw rgba(9, 9, 9, 0.5);
+        text-align:center;
+        margin: 0vw 0vw 1vw 0vw;      
+}
+
+h1  
+{
+        font-family: calibri,arial, sans-serif; font-style: italic;
+        font-size: 2.5vw;
+        text-shadow: 0.2vw 0.2vw 0.3vw rgba(9,9,9, 0.6);
+        font-weight: 600;
+        color: rgba(204,238,255);
+        padding:2vw 0vw 0vw 2vw;
+        text-align:left;
+}
+
+h2  
+{
+        font-family: calibri,arial, sans-serif; font-style: italic;
+        font-size: 2vw;
+        text-shadow: 0.2vw 0.2vw 0.3vw rgba(9,9,9, 0.6);
+        font-weight: 600;
+        color: rgba(204,238,255);
+        padding:0vw 0vw 0vw 2vw;
+        text-align:left;
+}
+
+h3  
+{
+        font-family: calibri,arial, sans-serif; font-style:italic;
+        font-size: 1.3vw;
+        text-shadow: 0.1vw 0.1vw 0.2vw rgba(9,9,9, 0.6);
+        font-weight: 400;
+        margin:1vw 0vw 1vw 0vw;
+        color: rgba(204,238,255);
+        text-align:center;
+}
